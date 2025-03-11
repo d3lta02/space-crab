@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "outputDirectory": "crab_game/www/dist",
+  "routes": [
+    { "src": "^(?!/).*", "dest": "/" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ],
+  "env": {
+    "FORCE_SIMULATION": "true"
+  }
+}

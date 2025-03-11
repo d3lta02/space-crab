@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "crab_game",
+    "crab_proof/program",
+    "crab_proof/lib",
+    "crab_proof/script"
+]
+
+resolver = "2"

@@ -1,0 +1,22 @@
+{
+  "name": "crab_game",
+  "type": "module",
+  "collaborators": [
+    "Your Name <your.email@example.com>"
+  ],
+  "description": "A simple crab game with SP1 ZK Proof integration",
+  "version": "0.1.0",
+  "license": "MIT/Apache-2.0",
+  "files": [
+    "index_bg.wasm",
+    "index.js",
+    "index_bg.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": [
+    "./index.js",
+    "./snippets/*"
+  ]
+}
